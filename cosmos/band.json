@@ -1,0 +1,50 @@
+{
+  "rpc": "https://rpc.cosmos.directory/bandchain",
+  "rest": "https://rest.cosmos.directory/bandchain",
+  "chainId": "laozi-mainnet",
+  "chainSymbolImageUrl" : "https://raw.githubusercontent.com/analog-m,utations/en-chains-registry/main/images/band-laozi-testnet6/chain.png",
+  "chainName": "Band Protocol",
+  "stakeCurrency": {
+    "coinDenom": "BAND",
+    "coinMinimalDenom": "uband",
+    "coinDecimals": 6,
+    "coinGeckoId": "band-protocol",
+    "coinImageUrl" : "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/band-laozi-testnet6/chain.png"
+  },
+  "bip44": {
+    "coinType": 494
+  },
+  "walletUrlForStaking": "https://restake.app/bandchain",
+  "bech32Config": {
+    "bech32PrefixAccAddr": "band",
+    "bech32PrefixAccPub": "bandpub",
+    "bech32PrefixValAddr": "bandvaloper",
+    "bech32PrefixValPub": "bandvaloperpub",
+    "bech32PrefixConsAddr": "bandvalcons",
+    "bech32PrefixConsPub": "bandvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "BAND",
+      "coinMinimalDenom": "uband",
+      "coinDecimals": 6,
+      "coinGeckoId": "band-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/band-laozi-testnet6/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BAND",
+      "coinMinimalDenom": "uband",
+      "coinDecimals": 6,
+      "coinGeckoId": "band-protocol",
+      "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/band-laozi-testnet6/chain.png",
+      "gasPriceStep": {
+        "low": 0.0125,
+        "average": 0.025,
+        "high": 0.05
+      }
+    }
+  ],
+  "beta": true
+}

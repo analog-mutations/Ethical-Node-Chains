@@ -1,0 +1,47 @@
+{
+    "rpc": "https://rpc.cosmos.directory/passage",
+    "rest": "https://rest.cosmos.directory/passage",
+    "chainId": "passage-1",
+    "chainName": "Passage",
+    "chainSymbolImageUrl" : "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/passage/chain.png",
+    "stakeCurrency": {
+      "coinDenom": "PASG",
+      "coinMinimalDenom": "upasg",
+      "coinDecimals": 6,
+      "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/passage/chain.png"
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "walletUrlForStaking": "https://restake.app/passage",
+    "bech32Config": {
+      "bech32PrefixAccAddr": "pasg",
+      "bech32PrefixAccPub": "pasgpub",
+      "bech32PrefixValAddr": "pasgvaloper",
+      "bech32PrefixValPub": "pasgvaloperpub",
+      "bech32PrefixConsAddr": "pasgvalcons",
+      "bech32PrefixConsPub": "pasgvalconspub"
+    },
+    "currencies": [
+      {
+        "coinDenom": "PASG",
+        "coinMinimalDenom": "upasg",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/passage/chain.png"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "PASG",
+        "coinMinimalDenom": "upasg",
+        "coinDecimals": 6,
+        "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/passage/chain.png",
+        "gasPriceStep": {
+          "low": 0,
+          "average": 0.025,
+          "high": 0.05
+        }
+      }
+    ],
+    "beta": true
+  }

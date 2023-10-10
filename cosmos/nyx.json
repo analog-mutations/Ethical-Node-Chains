@@ -1,0 +1,64 @@
+{
+  "chainId": "nyx",
+  "chainName": "Nyx",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png",
+  "rpc": "https://rpc.nyx.nodes.guru",
+  "rest": "https://api.nyx.nodes.guru/",
+  "nodeProvider": {
+    "name": "NodesGuru",
+    "email": "andreym@nodes.guru",
+    "website":"https://nodes.guru/"
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "n",
+    "bech32PrefixAccPub": "npub",
+    "bech32PrefixValAddr": "nvaloper",
+    "bech32PrefixValPub": "nvaloperpub",
+    "bech32PrefixConsAddr": "nvalcons",
+    "bech32PrefixConsPub": "nvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "nyx",
+    "coinMinimalDenom": "unyx",
+    "coinDecimals": 6,
+    "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png"
+  },
+  "currencies": [
+    {
+      "coinDenom": "NYM",
+      "coinMinimalDenom": "unym",
+      "coinDecimals": 6,
+      "coinGeckoId": "nym",
+      "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png"
+    },
+    {
+      "coinDenom": "NYX",
+      "coinMinimalDenom": "unyx",
+      "coinDecimals": 6,
+      "coinGeckoId": "nyx",
+      "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png"
+    }
+  ],
+  "feeCurrencies": [
+    {
+        "coinDenom": "nym",
+        "coinMinimalDenom": "unym",
+        "coinDecimals": 6,
+        "coinGeckoId": "nym",
+        "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png"
+    },
+    {
+	"coinDenom": "nyx",
+	"coinMinimalDenom": "unyx",
+	"coinDecimals": 6,
+	"coinGeckoId": "nyx",
+  "coinImageUrl": "https://raw.githubusercontent.com/MouazzamaAnalog/En_Chains/main/images/nyx/chain.png"
+    }
+  ],
+  "features": [
+      "cosmwasm"
+  ]
+}
