@@ -38,7 +38,7 @@
     }
   ],
   "rest": "https://lcd-cosmoshub.keplr.app",
-  "rpc": "https://rpc-cosmoshub.keplr.app",
+  "rpc": "https://cosmos-rpc.polkachu.com",
   "stakeCurrency": {
     "coinDecimals": 6,
     "coinDenom": "ATOM",
